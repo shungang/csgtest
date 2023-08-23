@@ -1,0 +1,25 @@
+name: act-demo
+run-name: act-demo-runing
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  job1:
+    environment: GANG-EVN
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        node-version: [10.x]
+    env:
+      OSS_ID: ${{ secrets.OSS_ID }}
+      HUAN_VAR: ${{ vars.HUAN_VAR }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: echo "${{ secrets.OSS_ID }} = ${{ vars.HUAN_VAR }}"
+      - run: npm install
+      - run: npm run start
