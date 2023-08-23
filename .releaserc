@@ -1,0 +1,7 @@
+{
+  "branches": "release",
+  "plugins": [
+    "@semantic-release/npm",
+    "@semantic-release/github"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "gang001",
+  "version": "1.7.0",
+  "description": "gang gang hao",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "gang"
+  ],
+  "author": "gang",
+  "license": "MIT",
+  "homepage": "https://github.com/shungang/csgtest.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shungang/csgtest.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^21.0.7"
+  }
+}
