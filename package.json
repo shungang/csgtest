@@ -21,6 +21,8 @@
     "access": "public"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^21.0.7"
   }
 }
