@@ -2,7 +2,7 @@ name: act-demo
 run-name: act-demo-runing
 on:
   pull_request:
-    branches: [main]
+    branches: [release]
 
 jobs:
   job1:
