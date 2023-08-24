@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/shungang/csgtest/compare/v1.11.0...v1.12.0) (2023-08-24)
+
+
+### Features
+
+* 1.11.0 ([7b6d08c](https://github.com/shungang/csgtest/commit/7b6d08c016e067054697d0e423587b96f738be44))
+
 # [1.11.0](https://github.com/shungang/csgtest/compare/v1.10.0...v1.11.0) (2023-08-24)
 
 
